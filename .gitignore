@@ -3,3 +3,6 @@
 
 # Ignore dw.json file
 dw.json
+
+# Ignore Visual Studio Code settings directory
+.vscode/
