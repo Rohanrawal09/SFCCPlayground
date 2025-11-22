@@ -422,7 +422,6 @@ server.post(
             }
 
             var processor = PaymentMgr.getPaymentMethod(paymentMethodID).getPaymentProcessor();
-
             // check to make sure there is a payment processor
             if (!processor) {
                 throw new Error(Resource.msg(
